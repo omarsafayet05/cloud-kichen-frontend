@@ -27,6 +27,7 @@
 - Cors
 - Dotenv
 - Mongodb
+- Toast Notification
 
 ##### Features of this Site
 
