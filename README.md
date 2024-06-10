@@ -4,9 +4,9 @@
 
 - Live Server link: https://cloud-kichen0592.surge.sh/
 
-- Github Repo Client Link:
+- Github Repo Client Link: https://github.com/omarsafayet05/cloud-kichen-frontend.git
 
-- Github Repo Server Link: https://github.com/omarsafayet05/cloud-kichen-backend
+- Github Repo Server Link: https://github.com/omarsafayet05/cloud-kichen-backend.git
 
 ---
 
@@ -39,3 +39,7 @@
 - Blog page,you can get our update news,features and offers.along with you can send your email through the newsletter,you'll get all updates on your email.
 - Home page,The new item if added,then you'll notify that item in the first position of a row in the "special meals section" .
 - many more features
+
+##### To Be Noted
+
+- In a Add Products route, 'image upload' input ui don't show in the form.I assume that this can be bug of daysi ui.If you click on the 'image upload' label,you can select the image from local disk.
