@@ -43,4 +43,4 @@
 
 ##### To Be Noted
 
-- In a Add Products route, 'image upload' input ui don't show in the form.I assume that this can be bug of daysi ui.If you click on the 'image upload' label,you can select the image from local disk.
+- In a Add Products route, 'image upload' input field don't show in the form.I assume that this can be bug of daysi ui.If you click on the 'image upload' label,you can select the image from local disk.
