@@ -37,7 +37,7 @@
 - Click on each item you can get the details and recepies.
 - You can give your feedback after buy meals.prior to access for giving your feedback, you have to do a account on our site.you can also edit,delete your feedback.
 - Add products,On this page only admin can access.This is not for users.
-- Blog page,you can get our update news,features and offers.along with you can send your email through the newsletter,you'll get all updates on your email.
+- On our Blog page,you can get our update news,features and offers.along with you can send your email on the newsletter,you'll get all updates on your email.
 - Home page,The new item if added,then you'll notify that item in the first position of a row in the "special meals section" .
 - many more features
 
