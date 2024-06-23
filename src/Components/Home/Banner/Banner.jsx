@@ -10,13 +10,13 @@ const Banner = () => {
           className="w-full rounded-xl object-cover aspect-[21/9]"
         />
       </div>
-      <div className="absolute flex justify-end transform-translate-y-1/2 left-24 top-1/2">
-        <h1 className="text-8xl extrabold">Cloud</h1>
+      <div className="absolute flex justify-end transform-translate-y-1/2 left-20 lg:left-24 top-1/2">
+        <h1 className=" text-5xl font-extrabold lg:text-8xl ">Cloud</h1>
         <br />
-        <h2 className="text-3xl italic">Kichen</h2>
+        <h2 className="text-xl italic lg:text-3xl">Kichen</h2>
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-30 top-3/4">
-        <p className="text-xl text-white">
+        <p className=" text-md  text-white lg:text-xl">
           " Order your meal on our site & enjoy the meal"
         </p>
       </div>

@@ -44,4 +44,4 @@
 ##### To Be Noted
 
 - In a Add Products route, 'image upload' input field don't show in the form.I assume that this can be bug of daysi ui.If you click on the 'image upload' label,you can select any image format from local disk.
-- In a Review section,If you update your existing feedback,you will be redirected to Error page,I could't fix it.The solution is reloading the error page,updated feedback will be shown in the review section.
+- In a Review section,If you update your existing feedback,you will be redirected to Error page,I could't fix it.The solution is reloading the error page,updated feedback will be shown in the review section.Netlify deployed link donot work if reload,press go back button.
