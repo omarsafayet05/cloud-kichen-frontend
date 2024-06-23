@@ -4,6 +4,8 @@
 
 - Live Server link: https://cloud-kichen.netlify.app/
 
+- Live Server second link: http://cloud-kichen.surge.sh/
+
 - Github Repo Client Link: https://github.com/omarsafayet05/cloud-kichen-frontend.git
 
 - Github Repo Server Link: https://github.com/omarsafayet05/cloud-kichen-backend.git
