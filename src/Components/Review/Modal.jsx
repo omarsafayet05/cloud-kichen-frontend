@@ -54,7 +54,7 @@ const Modal = ({ visible, onClose, result, review, setReview }) => {
 
   const protectedUpdate = user?.email
     ? (e) => {
-        //e.preventDefault();
+        e.preventDefault();
         handleUpdate(_id);
       }
     : (e) => {

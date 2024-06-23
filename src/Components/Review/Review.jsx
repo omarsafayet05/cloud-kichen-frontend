@@ -6,12 +6,13 @@ import FeedbackCard from "./FeedbackCard";
 import { AuthContext } from "../Contexts/AuthProvider";
 import ModalSecond from "./ModalSecond";
 import Rating from "../Rating/Rating";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const Review = () => {
   const [review, setReview] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [warning, setWarning] = useState("");
-  const { user } = useContext(AuthContext);
+  const { user, loading } = useContext(AuthContext);
   const details = useLoaderData();
   const { title, price, rating, description, ingredients, img, _id } = details;
   const [stars, setStars] = useState(rating.number);
@@ -69,7 +70,7 @@ const Review = () => {
 
   //show reviews which posted at all meals categories
   const results = review.filter((x) => x.meal_id === _id);
-
+  console.log(results);
   const noReviews = review.map((item, i) => item.meal_id);
   const Reviews = noReviews.find((x) => x === details._id);
 

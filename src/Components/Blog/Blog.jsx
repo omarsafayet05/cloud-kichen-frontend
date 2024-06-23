@@ -2,7 +2,7 @@ import classes from "./Blog.module.css";
 const Blog = () => {
   return (
     <div className={classes.hero}>
-      <h1 className="text-3xl font-bold text-gray-500 mt-4 mb-2 text-center">
+      <h1 className="text-3xl font-bold text-gray-500 mb-2 text-center">
         BLOG
       </h1>
       <div className={classes.qa}>

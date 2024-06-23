@@ -31,7 +31,11 @@ const Meals = () => {
                   <h2>{content.title}</h2>
                   <p>{content.description.substring(0, 110) + "..."}</p>
                   <button className={classes.btnProducts}>
-                    <Link to={`/review/${content._id}`}>More Info</Link>
+                    {user ? (
+                      <Link to={`/review/${content._id}`}>More Info</Link>
+                    ) : (
+                      <Link to={"/login"}>More Info</Link>
+                    )}
                   </button>
                 </div>
               </div>

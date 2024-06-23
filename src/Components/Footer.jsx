@@ -58,18 +58,20 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="mb-5">
+          <div className="mb-5 w-full">
             <strong className="text-lg mb-2">Newsletter</strong>
 
             <form>
-              <div className="flex gap-3">
+              <div className="flex gap-2">
                 <input
                   type="email"
                   name=""
                   id=""
-                  className="outline-none border-none rounded-md w-52 text-slate-900 "
+                  className="outline-none border-none rounded-md text-slate-900 "
                 />
-                <button className="btn btn-warning text-white">Email</button>
+                <button className="btn btn-warning text-white">
+                  Subscribe
+                </button>
               </div>
             </form>
           </div>

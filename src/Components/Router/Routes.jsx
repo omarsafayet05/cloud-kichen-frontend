@@ -10,10 +10,12 @@ import Meals from "../Meals/Meals";
 import Review from "../Review/Review";
 import Modal from "../Review/Modal";
 import AddMeals from "../Add Meals/AddMeals";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage></ErrorPage>,
     element: <Main></Main>,
     children: [
       {
