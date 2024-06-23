@@ -2,16 +2,25 @@ import { useContext, useEffect, useState } from "react";
 import classes from "./Meals.module.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Contexts/AuthProvider";
+import Loader from "../Loader";
 
 const Meals = () => {
   const [meals, setMeals] = useState([]);
-  const { user } = useContext(AuthContext);
-  const message = useEffect(() => {
+  const { user, loading } = useContext(AuthContext);
+
+  useEffect(() => {
     fetch("https://cloud-kichen-backend.vercel.app/all_meals")
       .then((res) => res.json())
       .then((data) => setMeals(data));
   }, []);
-  console.log(meals);
+
+  if (loading) {
+    return <Loader />;
+  } else {
+    meals;
+    console.log(meals);
+  }
+
   return (
     <div className={classes.dimention}>
       <div className={classes.component}>
