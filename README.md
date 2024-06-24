@@ -2,9 +2,9 @@
 
 ##### Live Website:
 
-- Live Server link one: https://cloud-kichen.pages.dev/
+- Live Server link cloudflare: https://cloud-kichen.pages.dev/
 
-- Live Server link second: https://cloud-kichen.netlify.app/
+- Live Server link netlify: https://cloud-kichen.netlify.app/
 
 - Github Repo Client Link: https://github.com/omarsafayet05/cloud-kichen-frontend.git
 
@@ -46,4 +46,4 @@
 ##### To Be Noted
 
 - In a Add Products route, 'image upload' input field don't show in the form.I assume that this can be bug of daysi ui.If you click on the 'image upload' label,you can select any image format from local disk.
-- In a Review section,If you update your existing feedback,you will be redirected to Error page,I could't fix it.The solution is reloading the error page,updated feedback will be shown in the review section.Cloudfare deployed link working good,It is told the exminer Who will check,please go to the cloudfare live link.Netlify deployed link donot work properly if reload,press go back button but feedback will be updated.
+- In a Review section,If you update your existing feedback,you will be redirected to Error page,I could't fix it.The solution is reloading the error page,updated feedback will be shown in the review section.Cloudflare deployed link working good,It is told the exminer Who will check,please go to the cloudflare live link.Netlify deployed link donot work properly if reload,press go back button but feedback will be updated.
