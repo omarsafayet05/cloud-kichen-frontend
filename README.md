@@ -1,4 +1,4 @@
-## Cloud Kichen Website
+## Cloud Kitchen Website
 
 ##### Live Website:
 

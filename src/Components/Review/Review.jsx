@@ -66,11 +66,13 @@ const Review = () => {
       .then((res) => res.json())
       .then((data) => setReview(data));
   }, []);
+
   console.log(review);
 
   //show reviews which posted at all meals categories
   const results = review.filter((x) => x.meal_id === _id);
   console.log(results);
+
   const noReviews = review.map((item, i) => item.meal_id);
   const Reviews = noReviews.find((x) => x === details._id);
 

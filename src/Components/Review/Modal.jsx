@@ -39,6 +39,7 @@ const Modal = ({ visible, onClose, result, review, setReview }) => {
           console.log(data);
           const updatedDoc = review.find((x) => x._id === _id);
           setReview(updatedDoc);
+          window.location.reload();
         }
       })
       .catch((err) => toast.error(err));
