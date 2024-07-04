@@ -2,7 +2,7 @@
 
 ##### Live Website:
 
-- Live Server link cloudflare: https://cloud-kichen.pages.dev/
+- Live Server link cloudflare: https://omar-cloud-kitchen.pages.dev/
 
 - Live Server link netlify:https://omar-cloud-kitchen.netlify.app/
 
